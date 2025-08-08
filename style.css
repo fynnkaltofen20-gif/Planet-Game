@@ -38,3 +38,30 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+#game {
+    text-align: center;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    margin: 0 auto;
+    background-image: url('https://www.transparenttextures.com/patterns/metal.png');
+    background-size: cover;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
