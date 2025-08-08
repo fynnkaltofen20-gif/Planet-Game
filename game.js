@@ -81,3 +81,14 @@ function updateInventory() {
 
 // Initialen Status anzeigen
 updateStatus();
+
+// Funktion für meteoritensturm
+function meteorShower() {
+    if (Math.random() < 0.2) {  // 20% Chance für einen Meteoritensturm
+        alert("Achtung! Meteoritensturm!!!");
+        hunger -= 20;
+        thirst -= 20;
+        health -= 10;
+        updateStatus();
+    }
+}
